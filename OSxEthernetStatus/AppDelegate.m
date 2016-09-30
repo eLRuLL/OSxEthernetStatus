@@ -11,12 +11,18 @@
 @interface AppDelegate ()
 
 @property (weak) IBOutlet NSWindow *window;
+
+@property (strong, nonatomic) NSStatusItem *statusItem;
+@property (assign, nonatomic) BOOL darkModeOn;
+
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    self.statusItem = [ [NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
+    _statusItem.image = [NSImage imageNamed:@"ethernet-nav-button-icon.png"];
 }
 
 

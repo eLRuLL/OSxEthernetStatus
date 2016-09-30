@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8D68ADDB1D9EB2DF009065AA"
+               BuildableName = "OSxEthernetStatus.app"
+               BlueprintName = "OSxEthernetStatus"
+               ReferencedContainer = "container:OSxEthernetStatus.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8D68ADEE1D9EB2E0009065AA"
+               BuildableName = "OSxEthernetStatusTests.xctest"
+               BlueprintName = "OSxEthernetStatusTests"
+               ReferencedContainer = "container:OSxEthernetStatus.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8D68ADF91D9EB2E0009065AA"
+               BuildableName = "OSxEthernetStatusUITests.xctest"
+               BlueprintName = "OSxEthernetStatusUITests"
+               ReferencedContainer = "container:OSxEthernetStatus.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8D68ADDB1D9EB2DF009065AA"
+            BuildableName = "OSxEthernetStatus.app"
+            BlueprintName = "OSxEthernetStatus"
+            ReferencedContainer = "container:OSxEthernetStatus.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8D68ADDB1D9EB2DF009065AA"
+            BuildableName = "OSxEthernetStatus.app"
+            BlueprintName = "OSxEthernetStatus"
+            ReferencedContainer = "container:OSxEthernetStatus.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8D68ADDB1D9EB2DF009065AA"
+            BuildableName = "OSxEthernetStatus.app"
+            BlueprintName = "OSxEthernetStatus"
+            ReferencedContainer = "container:OSxEthernetStatus.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
