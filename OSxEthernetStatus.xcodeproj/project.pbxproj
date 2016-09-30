@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D68ADE11D9EB2E0009065AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D68ADE01D9EB2E0009065AA /* AppDelegate.m */; };
+		8D68ADE41D9EB2E0009065AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D68ADE31D9EB2E0009065AA /* main.m */; };
+		8D68ADE61D9EB2E0009065AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D68ADE51D9EB2E0009065AA /* Assets.xcassets */; };
+		8D68ADE91D9EB2E0009065AA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D68ADE71D9EB2E0009065AA /* MainMenu.xib */; };
+		8D68ADF41D9EB2E0009065AA /* OSxEthernetStatusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D68ADF31D9EB2E0009065AA /* OSxEthernetStatusTests.m */; };
+		8D68ADFF1D9EB2E0009065AA /* OSxEthernetStatusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D68ADFE1D9EB2E0009065AA /* OSxEthernetStatusUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D68ADF01D9EB2E0009065AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D68ADD41D9EB2DF009065AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D68ADDB1D9EB2DF009065AA;
+			remoteInfo = OSxEthernetStatus;
+		};
+		8D68ADFB1D9EB2E0009065AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D68ADD41D9EB2DF009065AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D68ADDB1D9EB2DF009065AA;
+			remoteInfo = OSxEthernetStatus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D68ADDC1D9EB2DF009065AA /* OSxEthernetStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSxEthernetStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D68ADDF1D9EB2E0009065AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D68ADE01D9EB2E0009065AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D68ADE31D9EB2E0009065AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D68ADE51D9EB2E0009065AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D68ADE81D9EB2E0009065AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8D68ADEA1D9EB2E0009065AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D68ADEF1D9EB2E0009065AA /* OSxEthernetStatusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSxEthernetStatusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D68ADF31D9EB2E0009065AA /* OSxEthernetStatusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSxEthernetStatusTests.m; sourceTree = "<group>"; };
+		8D68ADF51D9EB2E0009065AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D68ADFA1D9EB2E0009065AA /* OSxEthernetStatusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSxEthernetStatusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D68ADFE1D9EB2E0009065AA /* OSxEthernetStatusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSxEthernetStatusUITests.m; sourceTree = "<group>"; };
+		8D68AE001D9EB2E0009065AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D68ADD91D9EB2DF009065AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D68ADEC1D9EB2E0009065AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D68ADF71D9EB2E0009065AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D68ADD31D9EB2DF009065AA = {
+			isa = PBXGroup;
+			children = (
+				8D68ADDE1D9EB2DF009065AA /* OSxEthernetStatus */,
+				8D68ADF21D9EB2E0009065AA /* OSxEthernetStatusTests */,
+				8D68ADFD1D9EB2E0009065AA /* OSxEthernetStatusUITests */,
+				8D68ADDD1D9EB2DF009065AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D68ADDD1D9EB2DF009065AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D68ADDC1D9EB2DF009065AA /* OSxEthernetStatus.app */,
+				8D68ADEF1D9EB2E0009065AA /* OSxEthernetStatusTests.xctest */,
+				8D68ADFA1D9EB2E0009065AA /* OSxEthernetStatusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D68ADDE1D9EB2DF009065AA /* OSxEthernetStatus */ = {
+			isa = PBXGroup;
+			children = (
+				8D68ADDF1D9EB2E0009065AA /* AppDelegate.h */,
+				8D68ADE01D9EB2E0009065AA /* AppDelegate.m */,
+				8D68ADE51D9EB2E0009065AA /* Assets.xcassets */,
+				8D68ADE71D9EB2E0009065AA /* MainMenu.xib */,
+				8D68ADEA1D9EB2E0009065AA /* Info.plist */,
+				8D68ADE21D9EB2E0009065AA /* Supporting Files */,
+			);
+			path = OSxEthernetStatus;
+			sourceTree = "<group>";
+		};
+		8D68ADE21D9EB2E0009065AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D68ADE31D9EB2E0009065AA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D68ADF21D9EB2E0009065AA /* OSxEthernetStatusTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D68ADF31D9EB2E0009065AA /* OSxEthernetStatusTests.m */,
+				8D68ADF51D9EB2E0009065AA /* Info.plist */,
+			);
+			path = OSxEthernetStatusTests;
+			sourceTree = "<group>";
+		};
+		8D68ADFD1D9EB2E0009065AA /* OSxEthernetStatusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D68ADFE1D9EB2E0009065AA /* OSxEthernetStatusUITests.m */,
+				8D68AE001D9EB2E0009065AA /* Info.plist */,
+			);
+			path = OSxEthernetStatusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D68ADDB1D9EB2DF009065AA /* OSxEthernetStatus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D68AE031D9EB2E0009065AA /* Build configuration list for PBXNativeTarget "OSxEthernetStatus" */;
+			buildPhases = (
+				8D68ADD81D9EB2DF009065AA /* Sources */,
+				8D68ADD91D9EB2DF009065AA /* Frameworks */,
+				8D68ADDA1D9EB2DF009065AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSxEthernetStatus;
+			productName = OSxEthernetStatus;
+			productReference = 8D68ADDC1D9EB2DF009065AA /* OSxEthernetStatus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D68ADEE1D9EB2E0009065AA /* OSxEthernetStatusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D68AE061D9EB2E0009065AA /* Build configuration list for PBXNativeTarget "OSxEthernetStatusTests" */;
+			buildPhases = (
+				8D68ADEB1D9EB2E0009065AA /* Sources */,
+				8D68ADEC1D9EB2E0009065AA /* Frameworks */,
+				8D68ADED1D9EB2E0009065AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D68ADF11D9EB2E0009065AA /* PBXTargetDependency */,
+			);
+			name = OSxEthernetStatusTests;
+			productName = OSxEthernetStatusTests;
+			productReference = 8D68ADEF1D9EB2E0009065AA /* OSxEthernetStatusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D68ADF91D9EB2E0009065AA /* OSxEthernetStatusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D68AE091D9EB2E0009065AA /* Build configuration list for PBXNativeTarget "OSxEthernetStatusUITests" */;
+			buildPhases = (
+				8D68ADF61D9EB2E0009065AA /* Sources */,
+				8D68ADF71D9EB2E0009065AA /* Frameworks */,
+				8D68ADF81D9EB2E0009065AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D68ADFC1D9EB2E0009065AA /* PBXTargetDependency */,
+			);
+			name = OSxEthernetStatusUITests;
+			productName = OSxEthernetStatusUITests;
+			productReference = 8D68ADFA1D9EB2E0009065AA /* OSxEthernetStatusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D68ADD41D9EB2DF009065AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Raul Gallegos";
+				TargetAttributes = {
+					8D68ADDB1D9EB2DF009065AA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					8D68ADEE1D9EB2E0009065AA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8D68ADDB1D9EB2DF009065AA;
+					};
+					8D68ADF91D9EB2E0009065AA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8D68ADDB1D9EB2DF009065AA;
+					};
+				};
+			};
+			buildConfigurationList = 8D68ADD71D9EB2DF009065AA /* Build configuration list for PBXProject "OSxEthernetStatus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D68ADD31D9EB2DF009065AA;
+			productRefGroup = 8D68ADDD1D9EB2DF009065AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D68ADDB1D9EB2DF009065AA /* OSxEthernetStatus */,
+				8D68ADEE1D9EB2E0009065AA /* OSxEthernetStatusTests */,
+				8D68ADF91D9EB2E0009065AA /* OSxEthernetStatusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D68ADDA1D9EB2DF009065AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D68ADE61D9EB2E0009065AA /* Assets.xcassets in Resources */,
+				8D68ADE91D9EB2E0009065AA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D68ADED1D9EB2E0009065AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D68ADF81D9EB2E0009065AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D68ADD81D9EB2DF009065AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D68ADE41D9EB2E0009065AA /* main.m in Sources */,
+				8D68ADE11D9EB2E0009065AA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D68ADEB1D9EB2E0009065AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D68ADF41D9EB2E0009065AA /* OSxEthernetStatusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D68ADF61D9EB2E0009065AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D68ADFF1D9EB2E0009065AA /* OSxEthernetStatusUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D68ADF11D9EB2E0009065AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D68ADDB1D9EB2DF009065AA /* OSxEthernetStatus */;
+			targetProxy = 8D68ADF01D9EB2E0009065AA /* PBXContainerItemProxy */;
+		};
+		8D68ADFC1D9EB2E0009065AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D68ADDB1D9EB2DF009065AA /* OSxEthernetStatus */;
+			targetProxy = 8D68ADFB1D9EB2E0009065AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D68ADE71D9EB2E0009065AA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D68ADE81D9EB2E0009065AA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D68AE011D9EB2E0009065AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8D68AE021D9EB2E0009065AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8D68AE041D9EB2E0009065AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSxEthernetStatus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elrull.OSxEthernetStatus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D68AE051D9EB2E0009065AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSxEthernetStatus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elrull.OSxEthernetStatus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8D68AE071D9EB2E0009065AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSxEthernetStatusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elrull.OSxEthernetStatusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSxEthernetStatus.app/Contents/MacOS/OSxEthernetStatus";
+			};
+			name = Debug;
+		};
+		8D68AE081D9EB2E0009065AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSxEthernetStatusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elrull.OSxEthernetStatusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSxEthernetStatus.app/Contents/MacOS/OSxEthernetStatus";
+			};
+			name = Release;
+		};
+		8D68AE0A1D9EB2E0009065AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSxEthernetStatusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elrull.OSxEthernetStatusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OSxEthernetStatus;
+			};
+			name = Debug;
+		};
+		8D68AE0B1D9EB2E0009065AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSxEthernetStatusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elrull.OSxEthernetStatusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OSxEthernetStatus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D68ADD71D9EB2DF009065AA /* Build configuration list for PBXProject "OSxEthernetStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D68AE011D9EB2E0009065AA /* Debug */,
+				8D68AE021D9EB2E0009065AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D68AE031D9EB2E0009065AA /* Build configuration list for PBXNativeTarget "OSxEthernetStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D68AE041D9EB2E0009065AA /* Debug */,
+				8D68AE051D9EB2E0009065AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D68AE061D9EB2E0009065AA /* Build configuration list for PBXNativeTarget "OSxEthernetStatusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D68AE071D9EB2E0009065AA /* Debug */,
+				8D68AE081D9EB2E0009065AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D68AE091D9EB2E0009065AA /* Build configuration list for PBXNativeTarget "OSxEthernetStatusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D68AE0A1D9EB2E0009065AA /* Debug */,
+				8D68AE0B1D9EB2E0009065AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D68ADD41D9EB2DF009065AA /* Project object */;
+}
